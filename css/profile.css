@@ -1,0 +1,159 @@
+/* file html */
+html {
+    height: 100%;
+    width: 100%;
+    font-family: Leelawadee;
+    margin-left: 0%;
+}
+
+/* body */
+body {
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(54, 14, 199), rgb(0, 204, 255));
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    /* Standard syntax (must be last) */
+}
+
+/* navbar */
+
+nav {
+    height: 10%;
+    position: absolute;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(54, 14, 199);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+li{
+    float: left;
+    width: 24.96%;
+    border-right: 1px solid white;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 3%;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 500ms;
+}
+
+.active {
+    background-color: rgb(0, 225, 255);
+}
+
+.margintopleft{
+    margin-top:4%;
+    margin-left:2%;
+}
+
+.arrotondamento{
+    border-radius:20%;
+}
+
+#infoprofilo{
+    background-color: rgba(211, 211, 211, 0.788);
+    width:50%;
+    font-size: 170%;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-right:10px;
+    padding-left:10px;
+    margin-bottom:1%;
+    margin-left:25%;
+    display:flex;
+    border: 2px solid black;
+}
+
+#infoparagrafo{
+    float:right;
+    text-align:center;
+    color:white;
+    margin-top:10%;
+    margin-right:28%;
+    font-size:180%; 
+    position:relative;
+}
+
+#modifica{
+    float:right;
+    /* margin: 0.5%; */
+    font-size: 90%;
+}
+
+
+.bottoncini:link,
+.bottoncini:visited {
+    background-color: #ffffff;
+    color: rgb(3, 3, 3);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottoncini:hover,
+.bottoncini:active {
+    background-color: rgb(199, 199, 199);
+}
+
+.floatL{
+    width:50%;
+    float:left;
+}
+
+.txtinput{
+    font-weight:bold;
+    font-style:italic;
+    padding-right:50px;
+    font-size:16px;
+}
+
+.interlinea{
+    line-height:165%;
+}
+
+.didascalia{
+    color:white;
+    font-size:130%;
+    font-weight:bold;
+}
+
+.diminput {
+    width: 70%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 16px;
+    height: 20%;
+}

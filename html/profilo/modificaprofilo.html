@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+	   <link rel="stylesheet" href="../../css/profile.css">
+       <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+       <title>Modifica profilo</title>
+    </head>
+    <body>
+		<nav>
+            <ul>
+                <li><a href="../bacheca/bacheca.html">Bacheca</a></li>
+                <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+                <li><a href="../listafile/listafile.html">Lista file</a></li>
+                <li><a class="active" href="../profilo/profilo.html">Profilo</a></li>
+            </ul>
+        </nav>
+        <div display="inline">
+            <img class="margintopleft arrotondamento" src="../../imm/avatar-viola.png" width="350px" height="350px">
+            <input type="file" name="avatar" accept="image/png, image/jpeg" style="width:20%; color:white; font-weight:bold;">
+            <p id="infoparagrafo">
+                Aggiorna i dati e poi clicca su "Salva profilo".<br/>
+                I nuovi dati verranno aggiornati nel tuo<br/>
+                profilo personale.
+            </p>
+        </div>
+        <form id="infoprofilo" class="margintopleft" method="POST">
+            <div class="floatL interlinea" style="padding-left:12%;">
+                <P><b>Nome:</b></P>
+                <p><b>Cognome:</b></p>
+                <p><b>Data di nascita:</b></p>
+                <p><b>E-mail:</b></p>
+                <p><b>Ruolo aziendale:</b></p>
+            </div>
+            <div class="floatL">
+                <p><input type="text" name="nome" id="txtNome" placeholder="Inserisci il tuo nome" class="txtinput diminput"></p>
+                <p><input type="text" name="cognome" id="txtCognome" placeholder="Inserisci il tuo cognome" class="txtinput diminput"></p>
+                <p><input type="date" name="txtdata" class="txtinput diminput"></p>
+                <p><input type="email" name="txtEmail" placeholder="Inserisci la tua e-mail" class="txtinput diminput"></p>
+                <p><input type="text" name="txtRuolo" id="txtRuolo" placeholder="Inserisci il tuo ruolo" class="txtinput diminput"></p>
+            </div>                        
+        </form>
+        <a href="profilo.html" class="bottoncini" style="float:right; margin-right:44%">Salva profilo</a>
+    </body>
+</html>
