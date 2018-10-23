@@ -1,27 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
-   <head>
-	   <link rel="stylesheet" href="../../css/profile.css">
-       <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-       <title>Profilo</title>
-    </head>
-    <body>
-		<nav>
-            <ul>
-                <li><a href="../bacheca/bacheca.html">Bacheca</a></li>
-                <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
-                <li><a href="../listafile/listafile.html">Lista file</a></li>
-                <li><a class="active" href="../profilo/profilo.html">Profilo</a></li>
-            </ul>
-        </nav>
-        <img class="margintopleft arrotondamento" src="../../imm/avatar-viola.png" width="350px" height="350px">
-    	<div id="infoparagrafo">
-    		Questa è la pagina del tuo profilo personale.<br>
-    		Cliccando su "Modifica profilo" puoi<br>
-    		personalizzare ancora di piu' il tuo profilo.
-        </div>  
+
+<head>
+    <link rel="stylesheet" href="../../css/profile.css">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Profilo</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../bacheca/bacheca.html">Bacheca</a></li>
+            <li><a href="../dashboard/dashboard.html">Dashboard</a></li>
+            <li><a href="../listafile/listafile.html">Lista file</a></li>
+            <li><a class="active" href="../profilo/profilo.html">Profilo</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img class="margintopleft arrotondamento" src="../../imm/avatar-viola.png">
+        <a class="bottoncini" href="../login/login.html" style="float: right; margin-top: 5%;">Esci </a>
+        <div id="infoparagrafo">
+            Questa è la pagina del tuo profilo personale.<br>
+            Cliccando su "Modifica profilo" puoi<br>
+            personalizzare ancora di piu' il tuo profilo.
+        </div>
         <div id="infoprofilo" class="margintopleft">
-            <div class="floatL" style="padding-left:12%;">
+            <div class="floatL" style="padding-left:12%">
                 <P><b>Nome:</b></P>
                 <p><b>Cognome:</b></p>
                 <p><b>Data di nascita:</b></p>
@@ -34,8 +38,10 @@
                 <p>01-08-1969</p>
                 <p>pinco@gmail.com</p>
                 <p>Dipendente</p>
-            </div>                      
+            </div>
         </div>
         <a href="modificaprofilo.html" class="bottoncini" style="float:right; margin-right:44%">Modifica profilo</a>
-    </body>
+    </div>
+</body>
+
 </html>
